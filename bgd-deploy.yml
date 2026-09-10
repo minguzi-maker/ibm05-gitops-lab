@@ -9,11 +9,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: bdg
+      app: bgd
   template:
     metadata:
       labels:
-        app: bgd
+        app: bgd   # 서비스의 label과 일치, matchLabels와 일치 시켜야함
       creationTimestamp: null
     spec:
       containers:
