@@ -11,4 +11,4 @@ resources:
 images:
 - name: 1jocker1/hello-app
   newName: 1jocker1/hello-app
-  newTag: c09e9d3
+  newTag: c83692a
