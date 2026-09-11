@@ -17,7 +17,7 @@ spec:
       - name: hello-app
         # Kustomize가 이 이미지 태그를 관리
         # 본인의 도커 허브 사용자 이름으로 변경
-        image: parkhana2/hello-app:latest
+        image: 1jocker1/hello-app:latest
         ports:
         - containerPort: 8080
 
