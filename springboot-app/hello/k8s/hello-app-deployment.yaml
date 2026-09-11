@@ -7,11 +7,11 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: hello-app
+      app: hello-app   # Deployment가 관리할 파드를 찾는 라벨,Deployment 자신을 위한 매칭입니다
   template:
     metadata:
       labels:
-        app: hello-app
+        app: hello-app   # 실제로 파드에 붙는 라벨 ★ 이게 핵심
     spec:
       containers:
       - name: hello-app
